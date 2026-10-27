@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "package": "aetherales.antiendportal.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "mixins": [
+        "EnderEyeItemMixin",
+        "EndPortalBlockMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+	}
+}
